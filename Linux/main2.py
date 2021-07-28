@@ -4,6 +4,7 @@ from kivymd.app import MDApp
 from kivymd.uix.label import MDLabel
 from kivy.lang import Builder
 from kivy.uix.screenmanager import ScreenManager, Screen, FadeTransition
+from kivy.clock import Clock
 
 Builder.load_string("""
 <MenuScreen>:
