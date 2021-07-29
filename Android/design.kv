@@ -1,0 +1,26 @@
+Screen:
+    Image:
+        source: "bg.png"
+        size: self.size
+        pos: self.pos
+        size: root.size
+        allow_stretch: True
+        keep_ratio: False
+
+    Image:
+        source: "logo.png"
+        pos_hint: {'center_x':0.5, 'center_y':0.65}
+
+
+    MDFillRoundFlatButton:
+        text:"start"
+        font_size: '32sp'
+        pos_hint: {'center_x':0.5,'center_y':0.4}
+        size_hint: (.5,.1)
+
+    
+    MDFillRoundFlatButton:
+        text:"options"
+        font_size: '32sp'
+        pos_hint: {'center_x':0.5,'center_y':0.2}
+        size_hint: (.5,.1)
